@@ -1,3 +1,4 @@
+<!-- Meta data -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -5,21 +6,60 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    <!-- <link rel="stylesheet" href="../highscore.html"> -->
     <title>code-quiz</title>
 </head>
 <body>
+    <!-- Two div tag with one id and one class and anchor tag. -->
+    <div class="header">
+        <a href="highscore.html">View High Scores</a>
+    <div id="time">timer</div>
+    
+    </div>
+
+    <!-- Div tag with a class. -->
     <div class="card start-card">
-        <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Qui, laborum. Suscipit sequi, adipisci neque molestias consequuntur sit tempore vel consectetur exercitationem, quod sunt quam impedit laborum similique dignissimos modi error.
-        </p>
-        <button id="start-quiz">start quiz</button>
+        
+        <!-- Paragraph tag with a button id. -->
+        <p>Code Quiz</p>
+        <button id="start-quiz">Start Quiz</button>
     </div>
+   
+    <!-- Div tag with a class and paragraph tag with an id. -->
     <div class="card question-card">
-        <p id="question-title">
-            
-        </p>
-       
+        
+        <p id="question-title"></p>
+     
     </div>
+    <!-- Div tag with an id and an unordered list with annother id tag. -->
+    <div id="score-card">
+        <ul id="unordered-list">
+            
+        </ul>
+    </div>
+    <!-- Div tag with a class. -->
+    <div class="save-card">
+
+        <!-- Header two with an id tag. -->
+        <h2 id="save-title">Quiz is Done</h2>
+
+        <!-- Paragraph tag with a san id final-score. -->
+        <p>
+            Your Final Score Is: <span id="final-score"></span>
+        </p>
+
+        <!-- Inputting the intitial to the id input. -->
+       Enter your initials<input id="input"/>
+
+       <!-- ANchor tag with a link and button id submit. -->
+       <a href = "highscore.html"><button id="submit">Submit</button></a>
+
+       <!-- Closing the div. -->
+    </div>
+
+   <!-- Linking the javascript. -->
     <script src="script.js"></script>
+
+    <!-- Closing the body tag. -->
 </body>
 </html>

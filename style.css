@@ -1,3 +1,55 @@
+/* Default settings */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Target the body, div, paragraph for the font size and  align the content center. */
+body div p {
+    font-size: xx-large;
+    text-align: center;
+}
+/* Target the body, and the button to make edits. */
+body button{
+    color: red;
+    text-align: center;
+    width: 5vw;
+}
+/* Changing the card class to a specific look. */
+.card {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+}
+/* Target the question-card class to display nothing. */
 .question-card {
-display: none
+    display: none;
+}
+/* Target the save-card class to display nothing and line up to be centered. */
+.save-card {
+    display: none;
+    text-align: center;
+}
+/* Target the header class to a flex box, and to have space, and centered. */
+.header{
+    display: flex;
+    justify-content:space-evenly; 
+    align-items: center;
+}
+/* Target the time id to a specific adjusting, */
+#time {
+    font-size: larger;
+    display: flex;
+    text-align: justify;
+    justify-content: flex-start; 
+}
+/* Target the start-quiz id to line up in the center. */
+#start-quiz { 
+    text-align: center;
+}
+High-score class to have the salmon background.
+#high-score{
+    background-color: salmon;
 }
